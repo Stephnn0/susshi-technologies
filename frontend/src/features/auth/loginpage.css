@@ -1,0 +1,181 @@
+.login-section-main {
+    background-color: rgb(235, 232, 232);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-cart {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.auth-input-div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.login-cart input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.login-cart button {
+    display: block;
+    width: 96%;
+    margin: 10px;
+    padding: 12px;
+    color: white;
+    border: none;
+    background-color: rgb(27, 91, 221);
+    cursor: pointer;
+}
+
+.login-cart button:hover {
+    background-color: rgb(21, 57, 128);
+
+}
+
+
+.login-cart button:hover {
+    background-color: rgb(21, 57, 128);
+
+}
+
+
+.create-account-div span:hover{
+    color: rgb(27, 91, 221);
+    text-decoration-line: underline;
+
+
+}
+
+
+    /* error messages */
+    .errmsg {
+        background-color: lightpink;
+        color: firebrick;
+        font-weight: bold;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .offscreen {
+        position: absolute;
+        left: -9999px;
+      }
+
+      .error-message {
+        color: red;
+        font-size: 12px;
+        margin-top: 1px;
+        margin-left: 5px
+      }
+      
+      /* Style for highlighting fields with errors */
+      login-input:invalid {
+        border: 1px solid red;
+      }
+      
+      /* Reset the red border when the field is focused */
+      login-input:invalid:focus {
+        border: 1px solid #ccc; /* Change #ccc to your preferred border color */
+      }
+
+
+@media screen and ( min-width: 968px) {
+
+    .login-section-main {
+        background-color: rgb(235, 232, 232);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .login-cart {
+        background-color: white;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .auth-input-div {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .login-cart input {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .login-cart button {
+        display: block;
+        width: 96%;
+        margin: 10px;
+        padding: 12px;
+        color: white;
+        border: none;
+        background-color: rgb(27, 91, 221);
+        cursor: pointer;
+    }
+
+    .login-cart button:hover {
+        background-color: rgb(21, 57, 128);
+
+    }
+
+
+    .create-account-div span:hover{
+        color: rgb(27, 91, 221);
+        text-decoration-line: underline;
+
+
+    }
+
+    /* error messages */
+    .errmsg {
+        background-color: lightpink;
+        color: firebrick;
+        font-weight: bold;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .offscreen {
+        position: absolute;
+        left: -9999px;
+      }
+
+    
+      .error-message {
+        color: red;
+        font-size: 13px;
+        margin-top: 1px;
+        margin-left: 5px
+      }
+      
+      /* Style for highlighting fields with errors */
+      login-input:invalid {
+        border: 1px solid red;
+      }
+      
+      /* Reset the red border when the field is focused */
+      login-input:invalid:focus {
+        border: 1px solid #ccc; /* Change #ccc to your preferred border color */
+      }
+
+
+}

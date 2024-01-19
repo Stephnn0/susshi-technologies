@@ -1,0 +1,221 @@
+.dashboard-main-div-parent {
+    padding-top: 60px;
+    height: 100%;
+    padding: 40px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  .xxxx {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.dashboard-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.dashboard-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-container-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-containers-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.shortcut-to-orders-div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(171, 168, 168);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shorcut-to-edit-div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(171, 168, 168);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.third-dashboard-div{
+    border: 1px solid rgb(171, 168, 168);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.forth-dashboard-div{
+    border: 1px solid rgb(171, 168, 168);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fifth-dashboard-div{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.clickable-btn-dash {
+    padding-top: 20px;
+    color: rgb(25, 101, 182);
+    cursor: pointer;
+}
+
+.clickable-btn-dash:hover {
+    color: rgb(25, 101, 182);
+    text-decoration: underline;
+}
+
+@media screen and ( min-width: 968px) {
+    .dashboard-main-div-parent {
+        /* padding-top: 70px; */
+        display: flex;
+        justify-content: center;
+        height: 100%;
+
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .xxxx {
+        padding-top: 40px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .dashboard-main-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 800px;
+    
+    }
+    
+    .dashboard-img-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dashboard-container-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dashboard-containers-widget {
+        display: flex;
+        flex-direction: row;
+
+    
+    
+    }
+    .shortcut-to-orders-div {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid rgb(171, 168, 168);
+        border-radius: 10px;
+        display: flex;
+
+    }
+
+
+    .shortcut-to-orders-div  p {
+        font-size: 13px;
+        color: rgb(78, 75, 75);
+     
+     }
+    
+    .shorcut-to-edit-div {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid rgb(171, 168, 168);
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .shorcut-to-edit-div p {
+       font-size: 13px;
+       color: rgb(78, 75, 75);
+    
+    }
+
+    .third-dashboard-div{
+        border: 1px solid rgb(171, 168, 168);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+    }
+
+    .forth-dashboard-div{
+        border: 1px solid rgb(171, 168, 168);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .fifth-dashboard-div{
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+
+    .clickable-btn-dash {
+        padding-top: 20px;
+        color: rgb(25, 101, 182);
+        cursor: pointer;
+    }
+
+    .clickable-btn-dash:hover {
+        color: rgb(25, 101, 182);
+        text-decoration: underline;
+    }
+}

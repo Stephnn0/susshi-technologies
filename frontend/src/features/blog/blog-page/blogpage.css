@@ -1,0 +1,358 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
+/* ------------------------------------------------- MOBILE */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-section-main {
+    background-color: white;
+    display: none;
+}
+
+
+.posts-only {
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    flex: 8;
+}
+
+
+
+.posts-only h1 {
+    font-size: 30px;
+}
+
+.posts-only h1:hover {
+    color: #1976a5;
+}
+
+.posts {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 8;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+
+
+}
+
+.img-1 {
+    flex: 2;
+}
+
+
+.spok {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+
+}
+
+.cat-sticker {
+    background-color: rgb(103, 226, 166);
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 20px;
+
+
+ }
+
+.blog-section-2 {
+    padding: 0 30px 0 30px;
+ }
+
+.content-1{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-1 h1:hover {
+    color: #1976a5;
+}
+
+.content-1 h3 {
+    color: rgb(70, 62, 62);
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 8px;
+}
+
+.top-content-post {
+    margin-top: 10px;
+    gap: 5px;
+}
+.chips-mobile{
+    margin: 0 0 0 4px;
+}
+
+.content-1 p {
+    display: none;
+    padding-right: 30px;
+}
+
+.content-1 button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: rgb(38, 112, 158);
+    color: white;
+    border: none;
+}
+
+.menu-1 {
+    display: none;
+}
+
+.blog-section-2-right {
+    flex: 1;
+    display: none;
+
+}
+
+/* ------------------------------------------------------ TABLET */
+
+
+@media screen and ( min-width: 468px) {
+
+}
+
+/* -------------------------------------------------------- PC */
+
+
+@media screen and ( min-width: 968px) {
+
+    body {
+        background-color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* SECTION 1 */
+
+    
+    .blog-section-main {
+        background-color: white;
+        display: flex;
+    }
+    
+    .menu-1{
+        flex: 2;
+    }
+
+    .menu-main-1 {
+        padding: 30px 60px 10px 60px;
+    }
+
+    .posts-only {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex: 8;
+    }
+    .last-post-empty-container-blog {
+        width: 100%;
+        height: 500px;
+        /* max-height: 500px; */
+        background-color: rgb(235, 230, 230);
+    }
+
+    .last-post-empty-container-blog img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+
+    }
+
+    .spok-only {
+        width: 100%;
+        max-height: 550px;
+        object-fit: cover;
+    
+    }
+
+    .parent-blog-second-sections {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blog-section-2-right {
+        flex: 1;
+        display: inline;
+
+        
+        position: sticky;
+        top: 70px;
+        align-self: flex-start; 
+        
+    }
+
+    .blog-section-2-right h4 {
+       padding: 20px;
+    }
+
+     /* SECTION 2 */
+
+     .blog-section-2 {
+        padding: 0 10px 0 20px;
+        flex: 2;
+        /* overflow-y: auto; Enable vertical scrolling for the left div */
+
+     }
+
+
+    .posts {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        flex: 8;
+    }
+    
+    .post {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin: 0 30px 0 30px;
+
+    
+    
+    }
+
+    .top-content-post {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-content-post h4 {
+       font-weight: 100;
+    }
+    
+    .img-1 {
+        flex: 2;
+        background-color: rgb(209, 196, 196);
+        height: 200px;
+        align-items: center;
+        align-content: center;
+        
+    }
+
+    .img-1 img {
+        height: 100%;
+    }
+    
+
+    .content-1{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    
+    .content-1 h1 {
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+
+        font-weight: bold;
+    }
+
+    .content-1 h1:hover {
+        color: #1976a5;
+    }
+    
+    .content-1 p {
+        display: inline;
+    }
+    
+    .content-1 button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        background-color: rgb(38, 112, 158);
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .content-1 button:hover {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        background-color: rgb(105, 163, 201);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-1 {
+        display: inline;
+        border-right: 1px solid rgb(229, 212, 212);
+    }
+
+    .chips {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* radio inputs */
+
+    .custom-radio-input {
+        width: 20px; /* Adjust the width to make it square */
+        height: 20px; /* Adjust the height to make it square */
+        margin-right: 10px; /* Adjust the spacing between the radio button and label */
+      }
+      
+      /* Style for the label */
+      .custom-radio-label {
+        font-size: 13px;
+        cursor: pointer;
+      }
+
+      .custom-chip {
+        cursor: pointer; /* Change cursor to pointer */
+        transition: background-color 0.3s; /* Add a smooth transition for background color */
+        background-color: rgb(103, 226, 166);
+        margin: 5px 5px 15px 5px
+
+      }
+      
+      /* Hover styles */
+      .custom-chip:hover {
+        cursor: pointer; /* Change cursor to pointer */
+        background-color: rgb(86, 198, 144); /* Change the background color on hover */
+        color: #fff; /* Change the text color on hover */
+      }
+     
+      
+      
+      
+      
+      
+    
+
+
+
+}

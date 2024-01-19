@@ -1,0 +1,137 @@
+.profile-screen-main-sec {
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.profile-screen-main-sec h1 {
+    padding: 0 0 0 20px;
+
+}
+
+.profile-screen-main-sec-inside {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 20px;
+}
+
+.container-circle-img {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-screen-main-sec-inside h3{
+    padding: 20px;
+    color: rgb(79, 76, 76);
+}
+
+.profile-img-container {
+    background-color: rgb(186, 179, 179);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.profile-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.above-container-prof {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.above-above-container-prof {
+    padding: 10px;
+}
+
+
+
+@media screen and ( min-width: 968px) {
+
+    .profile-screen-main-sec {
+        padding-top: 45px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    
+    .profile-screen-main-sec h1 {
+        padding: 0 0 0 20px;
+    
+    }
+    
+    .profile-screen-main-sec-inside {
+        border: 1px solid rgb(202, 200, 200);
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 700px;
+        padding: 10px;
+
+    }
+    
+    .container-circle-img {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .profile-screen-main-sec-inside h3{
+        padding: 20px;
+        color: rgb(79, 76, 76);
+    }
+    
+    .profile-img-container {
+        background-color: rgb(174, 167, 167);
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    .profile-img-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+    }
+
+    .above-container-prof {
+        display: flex;
+        width: 700px;
+        margin-bottom: 30px;
+        flex-direction: row;
+        padding: 0px;
+
+
+    }
+
+    .above-above-container-prof {
+        padding: 10px;
+    }
+     
+    .label-img-change-prof:hover {
+        text-decoration: underline;
+    }
+
+
+    .xxx {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+
+}

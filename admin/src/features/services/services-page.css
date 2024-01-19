@@ -1,0 +1,184 @@
+.services-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* margin: 40px; */
+    /* background-color: rgb(59, 86, 177); */
+    background-color: rgb(237, 241, 241);
+    color: black;
+    border-radius: 10px;
+}
+
+.services-section input {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(166, 158, 158);
+}
+
+.services-section button {
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: #198773;
+  color: white;
+}
+
+
+
+/* --------------------- CSS for Radio Inputs ------------------------ */
+.service-category-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .service-category-container h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-category-container input[type="radio"] {
+    display: none;
+  }
+  
+  .service-category-container label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #262b30;
+    background-color: white;
+    border: 1px solid #abb2b9;
+    border-radius: 20px;
+    padding-right: 20px;
+  }
+  
+  .service-category-container label:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 23px;
+    height: 24px;
+    border: 1px solid rgb(35, 85, 65); 
+    border-radius: 50%;
+  }
+  
+  .service-category-container input[type="radio"]:checked + label:before {
+    background-color: rgb(71, 169, 130) ;
+  }
+  
+  .service-category-container label:hover:before {
+    border-color: #0056b3; 
+  }
+  
+  .service-category-container label:before {
+    transition: border-color 0.3s ease;
+  }
+  
+  /* --------------------- CSS for Radio Inputs ------------------------ */
+
+  .editor-descriptions {
+    height: 300px;
+    overflow: scroll;
+    margin-bottom: 20px;
+
+}
+
+  .editor-services {
+    height: 300px;
+    border: 1px solid rgb(172, 163, 163);
+    background-color: white;
+    color: black;
+}
+
+.editor-descriptions-benefits {
+  height: 200px;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
+.editor-services-benefits {
+  height: 200px;
+  border: none;
+  /* background-color: rgb(204, 251, 216); */
+  background-color: white;
+  color: black;
+}
+
+
+.top-section-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-section-services button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.popup{
+  background-color: #18b42d;
+  color: rgb(13, 71, 40);
+  padding: 20px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.custom-square-editor {
+  vertical-align: top; /* Align text to the top */
+  width: 100%; 
+  height: 200px; 
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  font-size: 16px; /* Set the font size */
+  box-sizing: border-box;
+}
+
+
+/* WEB */
+@media screen and ( min-width: 968px) {
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 200px 0 200px;
+    /* background-color: rgb(59, 86, 177); */
+    background-color: rgb(237, 241, 241);
+    color: black;
+    border-radius: 10px;
+}
+
+.custom-square-editor {
+  vertical-align: top; /* Align text to the top */
+  width: 100%; 
+  height: 200px; 
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  font-size: 16px; /* Set the font size */
+  box-sizing: border-box;
+}
+}

@@ -1,0 +1,347 @@
+ /* TOP IMG DIV AND IMG */
+.single-service-top-img {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(235, 230, 230);
+
+ }
+
+ .single-service-top-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+  }
+
+      /* TITLE AND DESC CONTAINER */
+      .single-service-top-container-main{
+         background-color: rgb(24, 23, 23);
+         display: flex;
+         flex-direction: column;
+         padding: 30px;
+   
+       }
+   
+        .single-service-top-container {
+           color: white;
+        }
+
+
+
+        .single-service-top-container-right{
+         display: flex;
+
+         justify-content:space-between
+   
+        }
+   
+        .single-service-top-container-right-icon {
+         background-color: white;
+         margin-top: 20px;
+         height: 30px;
+         padding: 15px;
+         border-radius: 30px;
+         cursor: pointer;
+        }
+        .single-service-top-container-right-icon:hover {
+         background-color: rgb(19, 44, 230);
+         color: white;
+        }
+
+
+   
+        .single-service-top-container-right button {
+           display: inline;
+           padding: 20px;
+           margin-top: 20px;
+           background-color: rgb(34, 66, 247);
+           color: white;
+           border: none;
+           cursor: pointer;
+        }
+   
+        .single-service-top-container h1 {
+         color: white;
+         font-size: 30px;
+   
+      }
+   
+        .single-service-top-container-danger {
+           margin: 20px 0px 10px 0px;
+           color: white;
+           font-size: 15px;
+   
+        }
+
+      
+        .main-section-single-service-blog-left {
+         flex: 2;
+         display: none;
+         position: sticky;
+         top: 70px;
+         align-self: flex-start; 
+      }
+
+         /* OVERVIEW */
+   .overview-service-parent-container {
+      padding: 20px;
+
+   }
+
+   .overview-service-parent-container h2 {
+      font-size: 30px;
+      padding-bottom: 20px;
+   }
+
+
+
+   
+      /* BENEFITS */
+
+      .benefits-service-parent-container {
+         margin: 20px;
+         grid-template-columns: 1fr; 
+      }
+   
+      .benefits-service-parent-container-single {
+   
+         margin: 30px 30px 30px 0px; 
+         /* background-color: #e6e5e5; */
+         padding: 20px;
+         text-align: center;
+      }
+   
+         /* USECASES */
+   
+         .usecases-service-parent-container {
+            margin: 20px;
+            grid-template-columns: 1fr; 
+         }
+      
+         .usecases-service-parent-container-single {
+            margin: 30px 30px 30px 0px; 
+            /* background-color: #e6e5e5; */
+            padding: 10px;
+            text-align: center;
+         }
+
+            /* SOLUTIONS */
+   
+            .solutions-service-parent-container {
+               padding: 20px
+            }
+      
+            .solutions-service-parent-container h2{
+               font-size: 40px;
+               padding-bottom: 20px;
+            }
+      
+            /* RESOURCES */
+      
+            .resources-service-parent-container {
+               padding: 20px
+      
+            }
+      
+            .resources-service-parent-container h2{
+               font-size: 30px;
+               padding-bottom: 20px;
+            }
+
+            .extra-title-single-service {
+               font-size: 30px;
+               padding: 20px 0px 0 20px;
+            }
+
+
+/* ---------------------------------------------- WEB*/
+@media screen and ( min-width: 968px) {
+
+    /* TOP IMG DIV AND IMG */
+    .single-service-top-img {
+       width: 100%;
+       height: 500px;
+       background-color: rgb(235, 230, 230);
+
+    }
+
+    .single-service-top-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+     }
+
+    /* TITLE AND DESC CONTAINER */
+    .single-service-top-container-main{
+      background-color: rgb(24, 23, 23);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px;
+
+    }
+
+     .single-service-top-container {
+        color: white;
+     }
+
+     .single-service-top-container-right{
+      display: flex;
+      justify-content: space-between;
+
+     }
+
+     .single-service-top-container-right-icon {
+      background-color: white;
+      margin-top: 20px;
+      height: 30px;
+      padding: 15px;
+      border-radius: 30px;
+      cursor: pointer;
+     }
+     .single-service-top-container-right-icon:hover {
+      background-color: rgb(19, 44, 230);
+      color: white;
+     }
+
+     .single-service-top-container-right button {
+        padding: 20px;
+        margin-top: 20px;
+        background-color: rgb(34, 66, 247);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+     }
+
+     .single-service-top-container h1 {
+      color: white;
+      font-size: 30px;
+
+   }
+
+     .single-service-top-container-danger {
+        margin: 20px 0px 10px 0px;
+        color: white;
+        font-size: 20px;
+
+     }
+
+
+    /* MAIN CONTAINER FOR SPLITTING SCREEN IN TWO */
+   .main-section-single-service-blog {
+      display: flex;
+
+
+   }
+
+   .main-section-single-service-blog-left {
+      flex: 2;
+      display: block;
+
+      position: sticky;
+      top: 70px;
+      align-self: flex-start; 
+   }
+
+   .main-section-single-service-blog-left-inside {
+      padding: 50px
+   }
+
+   .overview-section {
+      padding: 20px 0px 20px 10px;
+      cursor: pointer;
+      color: rgb(132, 124, 124);
+   }
+
+   .overview-section:hover {
+      border: 2px solid blue;
+   }
+
+
+
+   .main-section-single-service-blog-right {
+      flex: 5;
+   }
+
+
+   /* OVERVIEW */
+   .overview-service-parent-container {
+      padding: 90px 150px 0 0;
+      margin: 0 0 50px 0px;
+
+   }
+
+   .overview-service-parent-container h2 {
+      font-size: 40px;
+      padding-bottom: 20px;
+   }
+
+   /* BENEFITS */
+
+   .benefits-service-parent-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Three columns for larger screens */
+      grid-gap: 10px; /* Adjust the gap between items as needed */
+      margin: 10px 0px 30px 0px;
+   }
+
+   .benefits-service-parent-container-single {
+
+      margin: 30px 30px 30px 0px; 
+      /* background-color: #e6e5e5; */
+      padding: 20px;
+      text-align: center;
+   }
+
+      /* USECASES */
+
+      .usecases-service-parent-container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr); /* Three columns for larger screens */
+         grid-gap: 10px; /* Adjust the gap between items as needed */
+         margin: 10px 0px 30px 0px;
+      }
+   
+      .usecases-service-parent-container-single {
+         margin: 30px 30px 30px 0px; 
+         /* background-color: #e6e5e5; */
+         padding: 10px;
+         text-align: center;
+      }
+   
+      /* SOLUTIONS */
+   
+      .solutions-service-parent-container {
+         padding: 90px 150px 0 0;
+         margin: 0 0 70px 0px;
+      }
+
+      .solutions-service-parent-container h2{
+         font-size: 40px;
+         padding-bottom: 20px;
+      }
+
+      /* RESOURCES */
+
+      .resources-service-parent-container {
+         padding: 40px 150px 0 0;
+         margin: 0 0 70px 0px;
+
+      }
+
+      .resources-service-parent-container h2{
+         font-size: 40px;
+         
+         padding-bottom: 20px;
+      }
+
+      .extra-title-single-service {
+         font-size: 40px;
+         padding: 20px 0px 0 0px;
+      }
+
+
+
+}
+

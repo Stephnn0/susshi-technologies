@@ -1,0 +1,142 @@
+/* MOBILE */
+
+.double-section-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.double-section-left-inside {
+    padding: 20px;
+}
+
+.double-section-left-inside h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.double-section-left-inside p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.double-button-section {
+
+    margin-bottom: 5px;
+}
+
+.double-button-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(43, 115, 224);
+    color: rgb(43, 115, 224);
+    margin: 5px;
+    cursor: pointer;
+}
+
+    .double-button-button:hover {
+        background-color: rgb(43, 115, 224);
+        color: white;
+
+}
+
+.double-button-button h5 {
+    margin-right: 10px;
+    }
+
+
+    .double-img-right {
+        flex-grow: 9;
+        width: 100%;
+        height: 400px;
+        
+        
+    }
+
+    .double-img-right img{
+        flex-grow: 6;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        
+    }
+
+
+/* TABLET */
+
+@media screen and ( min-width: 468px) {
+
+}
+
+
+
+
+/* WEB */
+
+@media screen and ( min-width: 968px) {
+
+    .double-section-main {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .double-section-left {
+        flex-grow: 2;
+        width: 50%;
+        /* background-color: rgb(240, 236, 236) */
+    }
+
+    .double-section-left-inside {
+        padding: 40px;
+    }
+     
+    .double-section-left-inside h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .double-section-left-inside p {
+        font-size: 20px;
+    }
+
+
+    .double-img-right {
+        flex-grow: 9;
+        width: 60%;
+        height: 500px;
+        
+    }
+
+    .double-img-right img{
+        flex-grow: 6;
+        width: 100%;
+        height: 100%
+        
+    }
+
+    .double-button-section {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .double-button-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid rgb(43, 115, 224);
+        color: rgb(43, 115, 224);
+        margin: 5px;
+        cursor: pointer;
+    }
+    .double-button-button h5 {
+        margin-right: 40px;
+        }
+
+
+
+}

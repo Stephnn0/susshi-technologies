@@ -1,0 +1,94 @@
+/* SPLIT SECTION */
+
+
+/* --------------------- MOBILE */
+
+.split-section-main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 32, 49);
+    color: white;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+.split-section-left {
+    margin-left: 20px;
+
+
+}
+
+.split-section-left h1 {
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.split-section-left p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 13px;
+
+
+}
+
+.split-img-right img{
+    padding-top: 40px;
+    height: 80%;
+    width: 90%;
+
+}
+
+/* --------------------- TABLET */
+
+
+@media screen and ( min-width: 468px) {
+    .split-section-left h1 {
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .split-img-right img{
+        margin-left: 100px;
+        height: 95%;
+        width: 60%;
+    } 
+}
+
+/* --------------------- PC */
+
+@media screen and ( min-width: 968px) {
+
+    .split-section-main {
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+
+    .split-section-left {
+        padding-top: 30px;
+        width: 900px;
+    }
+
+    .split-section-left h1 {
+        font-weight: 900;
+        padding-bottom: 5px;
+        /* font-size: 5px; */
+
+    }
+
+    .split-section-left p {
+        padding-top: 25px;
+        padding-bottom: 30px;
+        font-size: 23px;
+
+    
+    }
+
+    .split-img-right img{
+        margin-left: 150px;
+        height: 95%;
+        width: 80%;
+    } 
+
+}

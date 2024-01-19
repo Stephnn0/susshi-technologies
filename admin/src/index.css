@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(184, 191, 190);
+}
+
+.content-container {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling for content */
+    padding: 20px; /* Add padding as needed */
+  }

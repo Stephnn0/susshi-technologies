@@ -1,0 +1,51 @@
+.eight-cat-container {
+    display: grid;
+    padding: 10px;
+
+}
+
+.eight-cat-container img {
+
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.eight-cat-container-in {
+    border: 1px solid rgb(208, 191, 191);
+    padding: 30px;
+
+}
+
+/* .eight-cat-container-in:hover {
+   background-color: red;
+
+} */
+
+
+/* WEB */
+
+@media screen and ( min-width: 968px) {
+    .eight-cat-container {
+        padding: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Three columns for larger screens */
+
+        
+    }
+    
+    .eight-cat-container img {
+    
+        height: 100px;
+        width: 100px;
+    
+    }
+    
+    .eight-cat-container-in {
+        border: 1px solid rgb(208, 191, 191);
+        padding: 60px;
+    }
+
+
+}

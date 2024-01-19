@@ -1,0 +1,50 @@
+.edit-fields-div {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(181, 175, 175);
+    padding: 10px 10px 20px 10px;
+}
+
+.edit-fields-div input {
+    padding: 10px;
+}
+
+.edit-fields-div-inside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-fields-div-inside span {
+    color: rgb(24, 114, 187);;
+}
+
+.pop-up-update-profile {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pop-up-update-profile span{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 114, 187);
+    width: 200px;
+    border: 1px solid rgb(24, 114, 187);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 3px;
+  
+}
+
+.pop-up-update-profile span:hover{
+    background-color: rgb(32, 112, 173);
+    color: white
+
+    
+
+  
+}
+
+.hovverble-edit:hover {
+    text-decoration: underline;
+}
